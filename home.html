@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e78c53c902.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>BestFood</title>
+  </head>
+  <body>    
+      <nav>
+        <i class="fa-solid fa-utensils category-link" data-category=""></i>
+        <i class="fa-solid fa-pizza-slice category-link" data-category="pizza"></i>
+        <i class="fa-solid fa-ice-cream category-link" data-category="icecream"></i>
+        <i class="fa-solid fa-burger category-link" data-category="hamburguer"></i>
+        <i class="fa-solid fa-martini-glass-citrus category-link" data-category="drink"></i>
+       </nav>
+   
+    <div class="logo">
+      <img src="logo.png" alt="" />
+    </div>
+    <div class="titulo">
+      <div></div>
+      <h1>Hamburguer</h1>
+      <div></div>
+    </div>
+    <div class="containerItens"></div>
+    <div class="carrinhoBtn">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <p>Meu Pedido</p>
+    </div>
+    <div class="carrinho">
+      <div class="carrinhoNav">
+        <div class="close"><i class="fa-regular fa-circle-xmark"></i></div>
+        <h2>Carrinho</h2>
+        <div id="total">
+          <p>Total: R$ <span id="total-value">0</span></p>
+        </div>
+        <div class="btnPedido" onclick="limparCarrinho()">Fazer Pedido</div>
+      </div>
+      <div id="cart">
+      </div>
+      <div class="containerPedidoFeito">
+        <p>Pedido Realizado com Sucesso !!</p>
+        <p>:)</p>
+      </div>o
+
+      
+      </div>
+    </div>
+    <button onclick="toggleFullScreen()">Ativar/Desativar Tela Cheia</button>
+    <script src="script.js"></script>
+  </body>
+</html>
