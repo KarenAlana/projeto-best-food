@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #161616;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: inherit;
+}
+html {
+  overflow-x: hidden;
+}
+button,
+input,
+textarea {
+  border: 0 none;
+  outline: 0;
+  background-color: transparent;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffe5e5;
+  background-color: #ff1616;
+  height: 60px;
+  font-size: 30px;
+  padding: 5px;
+}
+nav i {
+  margin: 30px;
+  cursor: pointer;
+}
+.active {
+  color: #fdfd4b;
+  border-bottom: solid 6px #fdfd4b;
+  padding: 15px;
+  border-radius: 0 0 10% 10%;
+}
+.logo {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.logo img {
+  width: 100px;
+}
+.titulo {
+  color: #ffe5e5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+.titulo div {
+  background-color: #ffe5e5;
+  height: 6px;
+  width: 15px;
+  margin: 15px;
+}
+
+.containerItens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  color: #ffe5e5;
+  flex: 1 0 calc((100% - 100px) / 3);
+  max-width: 400px;
+  min-width: 270px;
+  margin: 15px;
+  border-radius: 5px;
+}
+.item h1 {
+  text-align: center;
+}
+
+.imgItem {
+  height: 230px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+
+.background-image {
+  background-position: center;
+  background-size: cover;
+}
+
+.itemDescricao {
+  margin-top: 10px;
+}
+.containerSecundario {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.containerSecundario p {
+  font-size: 25px;
+}
+.btnAdd {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #ff1616;
+  cursor: pointer;
+}
+.carrinhoBtn {
+  color: #ffe5e5;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #ff1616;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.carrinho {
+  position: fixed;
+  top: 80px;
+  left: 2vw;
+  background-color: #202020;
+  border-radius: 15px;
+  width: 95%;
+  height: 95%;
+  color: #ffe5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  display: none;
+  overflow-y: auto;
+}
+
+.close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color: #fdfd4b;
+  font-size: 25px;
+  cursor: pointer;
+}
+.btnPedido {
+  margin-top: 25px;
+  color: #ffe5e5;
+  background-color: #ff1616;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+#cart {
+  padding-top: 50px;
+  width: 100%;
+}
+.imgItemCart {
+  width: 80px;
+  height: 50px;
+}
+.cartItem {
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.quantity {
+  display: flex;
+}
+.name {
+  margin-left: 3px;
+  width: 150px;
+}
+.quantBtn {
+  color: #fdfd4b;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #ff1616;
+  margin: auto 5px;
+  cursor: pointer;
+}
+.quant {
+  width: 30px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffe5e5;
+  border-radius: 5px;
+}
+.containerPedidoFeito{
+  background-color: red;
+  color: aliceblue;
+  text-align: center;
+  min-width: 150px;
+  max-width: 350px;
+  margin: auto;
+  height: 300px;
+  font-size: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+.containerPedidoFeito p:nth-child(2) {
+  color:#fdfd4b;
+  
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.remove {
+  color: #fdfd4b;
+  cursor: pointer;
+}
+
+
