@@ -9,3 +9,4 @@ Combinando HTML, CSS e JavaScript, com operações CRUD (Create, Read, Update, D
 # 🗂️ Acesso ao projeto:
 
 Link do site disponibilizado:
+https://karenalana.github.io/projeto-best-food/home.html
